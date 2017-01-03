@@ -16,11 +16,11 @@ var NOTIFICATION_TIMEOUT = 3000;
 
 function notify(logo, title, opt_body) {
     chrome.notifications.create('chrome-task-extension', {
-        type: "basic",
+        type: 'basic',
         title: title,
         message: opt_body || '',
         iconUrl: logo
-    })
+    });
 
 }
 
