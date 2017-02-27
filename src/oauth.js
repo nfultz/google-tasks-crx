@@ -25,5 +25,5 @@ oauth.sendSignedRequest = function(url, callback, req) {
     }
     xhr.setRequestHeader("Authorization", "Bearer " + token);
     xhr.send(body);
-  } );
+  });
 };
