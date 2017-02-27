@@ -8,7 +8,7 @@
  *
  *  @author Neal Fultz <nfultz@gmail.com>
  */
-var oauth = {}
+var oauth = {};
 
 oauth.sendSignedRequest = function(url, callback, req) {
   var body = req.body || null;
